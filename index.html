@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>BudgetMate💰</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+
+    <body>
+        <div class="container">
+            <h1>BudgetMate💰</h1> <!-- Heading-->
+            <p class="subtitle">Track your daily spending - stay aware, stay in control.</p> <!-- Subtitle -->
+
+            <div class="input-group"> <!-- Input field start-->
+                <input type="text" id="itemName" placeholder="Expense name" />
+                <input type="number" id="itemAmount" placeholder="Amount" />
+                <button id="addButton">Add</button>
+            </div> <!-- Input field end -->
+
+            <ul id="expanseList" class="expanse-list"></ul> <!-- Expanse list -->
+
+            <div class="total"> <!-- Total amount container -->
+                Total: $<span id="totalAmount">0</span>
+            </div>
+            <button id="clearButton" class="clear-button">Clear All</button> <!-- Clear button-->
+
+        </div>   
+
+        <script src="script.js"></script>
+    </body>
+</html>
