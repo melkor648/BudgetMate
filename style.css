@@ -97,3 +97,9 @@ button:hover {
 .clear-btn:hover {
   background: #757575;
 }
+#itemName {
+    display: flex;
+}
+#itemAmount {
+    display: flex;
+}
